@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <rect width="200" height="200" rx="20" fill="#faf5ff"/>
+  <circle cx="100" cy="80" r="45" fill="#8b5cf6" opacity="0.1"/>
+  <rect x="55" y="55" width="40" height="25" rx="4" fill="#8b5cf6" opacity="0.2"/>
+  <rect x="105" y="55" width="40" height="25" rx="4" fill="#8b5cf6" opacity="0.2"/>
+  <rect x="55" y="90" width="40" height="25" rx="4" fill="#8b5cf6" opacity="0.35"/>
+  <rect x="105" y="90" width="40" height="25" rx="4" fill="#8b5cf6" opacity="0.35"/>
+  <path d="M75 67 L85 77 L95 62" stroke="#7c3aed" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M125 67 L135 77 L145 62" stroke="#7c3aed" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M125 102 L135 112 L145 97" stroke="#7c3aed" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="75" cy="102" r="10" fill="#7c3aed" opacity="0.5"/>
+  <path d="M70 102 L74 106 L80 98" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="100" y="165" text-anchor="middle" font-family="system-ui,sans-serif" font-size="22" font-weight="700" fill="#3b0764">自动化测试</text>
+</svg>
