@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>炊烟小站</title>
+    <link>https://docs.yychuiyan.com/</link>
+    <description>三餐烟火暖，四季皆安然。</description>
+    <language>zh-CN</language>
+    <atom:link href="https://docs.yychuiyan.com/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>用 JMeter 压一把接口</title>
+      <link>https://docs.yychuiyan.com/blog/performance-testing/jmeter-api-load-test/</link>
+      <guid>https://docs.yychuiyan.com/blog/performance-testing/jmeter-api-load-test/</guid>
+      <pubDate>Fri, 18 Sep 2026 16:00:00 GMT</pubDate>
+      <category>性能测试</category>
+      <description>最近拿本地练习站 testing-online 把接口压测链路又过了一遍：Bearer 登录、关联 Token、压 POST /api/perf/generate，再用 10 / 20 / 50 三档并发对比，最后用命令行出 HTML 报告。</description>
+    </item>
+    <item>
+      <title>Charles 连接安卓手机 APP 抓包实战</title>
+      <link>https://docs.yychuiyan.com/blog/tools/Charles连接安卓手机APP抓包实战/</link>
+      <guid>https://docs.yychuiyan.com/blog/tools/Charles连接安卓手机APP抓包实战/</guid>
+      <pubDate>Wed, 16 Sep 2026 16:00:00 GMT</pubDate>
+      <category>工具篇</category>
+      <description>环境：macOS + Charles + 小米手机（MIUI / HyperOS）。记录从代理配置、证书安装，到「已连接但无法访问互联网」排障，以及在 Charles 里查看 Referer 的完整过程。</description>
+    </item>
+    <item>
+      <title>重新认识一下 Locust</title>
+      <link>https://docs.yychuiyan.com/blog/performance-testing/revisit-locust/</link>
+      <guid>https://docs.yychuiyan.com/blog/performance-testing/revisit-locust/</guid>
+      <pubDate>Tue, 15 Sep 2026 16:00:00 GMT</pubDate>
+      <category>性能测试</category>
+      <description>做接口性能压测时，最常用的往往是 JMeter：GUI 成熟、上手快、资料也多。今天换个角度，重新认识一下另一款开源压测工具——Locust。</description>
+    </item>
+    <item>
+      <title>pytest 如何从 0 到 1 实现登录</title>
+      <link>https://docs.yychuiyan.com/blog/automation-testing/pytest-login-from-zero/</link>
+      <guid>https://docs.yychuiyan.com/blog/automation-testing/pytest-login-from-zero/</guid>
+      <pubDate>Fri, 04 Sep 2026 16:00:00 GMT</pubDate>
+      <category>自动化测试</category>
+      <description>接口自动化里，登录几乎永远是第一条要打通的链路：大多数业务接口依赖登录态；登录失败时后面一串用例会「全红」；契约一旦稳定，就可以沉到 session 级 fixture，整场测试只登一次。</description>
+    </item>
+    <item>
+      <title>用简单的例子解释什么是面向对象</title>
+      <link>https://docs.yychuiyan.com/blog/frontend/oop-simple-example/</link>
+      <guid>https://docs.yychuiyan.com/blog/frontend/oop-simple-example/</guid>
+      <pubDate>Tue, 25 Aug 2026 16:00:00 GMT</pubDate>
+      <category>前端</category>
+      <description>提起面向对象，几乎都会先报三大特性：封装、继承、多态。名词背得下来，落到代码里却经常对不上。下面用「把大象装进冰箱」把这三件事说清楚，再用 JavaScript 写成能跑的例子。</description>
+    </item>
+    <item>
+      <title>Playwright 选不中自定义下拉？别猜选择器，去 trace 里找真相</title>
+      <link>https://docs.yychuiyan.com/blog/automation-testing/custom-dropdown-trace/</link>
+      <guid>https://docs.yychuiyan.com/blog/automation-testing/custom-dropdown-trace/</guid>
+      <pubDate>Sat, 22 Aug 2026 16:00:00 GMT</pubDate>
+      <category>自动化测试</category>
+      <description>最近在一个后台系统的 UI 自动化里，卡在了一个「看起来平平无奇」的下拉框上：点开之后选项就是选不中。折腾了三轮弯路，最后靠 trace 里的真实 DOM 才定位到根因。这篇记录一下完整排查过程，希望你能少走一遍。</description>
+    </item>
+    <item>
+      <title>性能测试报告指标解读：报告里每一列到底在说什么</title>
+      <link>https://docs.yychuiyan.com/blog/performance-testing/performance-report-metrics/</link>
+      <guid>https://docs.yychuiyan.com/blog/performance-testing/performance-report-metrics/</guid>
+      <pubDate>Sat, 15 Aug 2026 16:00:00 GMT</pubDate>
+      <category>性能测试</category>
+      <description>JMeter 跑完，报告出来了——样本、失败数、异常%、平均、最小、最大、中位数、90th/95th/99th 百分位、吞吐量……一排列过去，很多人只会盯「平均值」，然后得出一个不太靠谱的结论。</description>
+    </item>
+    <item>
+      <title>一行代码告别 pad 地狱</title>
+      <link>https://docs.yychuiyan.com/blog/automation-testing/one-line-fix-pad-hell/</link>
+      <guid>https://docs.yychuiyan.com/blog/automation-testing/one-line-fix-pad-hell/</guid>
+      <pubDate>Thu, 09 Jul 2026 16:00:00 GMT</pubDate>
+      <category>自动化测试</category>
+      <description>在写自动化测试时，经常需要生成 YYYY-MM-DD HH:mm:ss 格式的日期字符串。常见的写法长这样：</description>
+    </item>
+    <item>
+      <title>登录回调问题记录</title>
+      <link>https://docs.yychuiyan.com/blog/automation-testing/login-callback-issue/</link>
+      <guid>https://docs.yychuiyan.com/blog/automation-testing/login-callback-issue/</guid>
+      <pubDate>Mon, 29 Jun 2026 16:00:00 GMT</pubDate>
+      <category>自动化测试</category>
+      <description>当进入系统页面的时候如果没有登录会强制跳转回登录页面，这个鉴权方式是大多数企业常用的。</description>
+    </item>
+    <item>
+      <title>如何优雅的配置GitHub账号</title>
+      <link>https://docs.yychuiyan.com/blog/tools/mac-git-multi-account/</link>
+      <guid>https://docs.yychuiyan.com/blog/tools/mac-git-multi-account/</guid>
+      <pubDate>Mon, 22 Jun 2026 16:00:00 GMT</pubDate>
+      <category>工具篇</category>
+      <description>日常开发中经常会遇到这样的情形：家里电脑只连自己的 GitHub；公司电脑既要连个人 GitHub，又要连公司的 GitHub 仓库。两个 GitHub 账号在同一台电脑上 push，动不动就报权限错误，要么就是 commit 记录里名字和邮箱串了。根本原因其实很简单——你的电脑不知道什么时候该用哪把&quot;钥匙&quot;。</description>
+    </item>
+    <item>
+      <title>Node.js 安装配置手册</title>
+      <link>https://docs.yychuiyan.com/blog/tools/node-setup/</link>
+      <guid>https://docs.yychuiyan.com/blog/tools/node-setup/</guid>
+      <pubDate>Sun, 21 Jun 2026 16:00:00 GMT</pubDate>
+      <category>工具篇</category>
+      <description>包含 Node.js 安装、nvm 版本管理、nrm 镜像源管理，覆盖 macOS 和 Windows。</description>
+    </item>
+    <item>
+      <title>Playwright 1.61.0 ESM Loader 崩溃问题</title>
+      <link>https://docs.yychuiyan.com/blog/automation-testing/playwright-esm-loader-crash/</link>
+      <guid>https://docs.yychuiyan.com/blog/automation-testing/playwright-esm-loader-crash/</guid>
+      <pubDate>Sun, 21 Jun 2026 16:00:00 GMT</pubDate>
+      <category>自动化测试</category>
+      <description>在整理自动化脚本的时候类型报了这个错误</description>
+    </item>
+    <item>
+      <title>使用ssh命令传输文件</title>
+      <link>https://docs.yychuiyan.com/blog/tools/scp-file-transfer/</link>
+      <guid>https://docs.yychuiyan.com/blog/tools/scp-file-transfer/</guid>
+      <pubDate>Mon, 15 Jun 2026 16:00:00 GMT</pubDate>
+      <category>工具篇</category>
+      <description>以前一直在 Windows 下用 SSH Secure Shell 连接远程服务器，它自带了一个可视化的文件传输工具，跟 FTP 差不多。</description>
+    </item>
+    <item>
+      <title>ALLinSSL&amp;宝塔面板域名绑定与SSL配置</title>
+      <link>https://docs.yychuiyan.com/blog/tools/allinssl-baota-ssl/</link>
+      <guid>https://docs.yychuiyan.com/blog/tools/allinssl-baota-ssl/</guid>
+      <pubDate>Mon, 15 Jun 2026 16:00:00 GMT</pubDate>
+      <category>工具篇</category>
+      <description>环境：腾讯云服务器（OpenCloudOS）+ 宝塔面板 + Nginx + ALLinSSL 日期：2026-06-05</description>
+    </item>
+    <item>
+      <title>Chrome 控制台打开太慢解决方案</title>
+      <link>https://docs.yychuiyan.com/blog/tools/chrome-devtools-slow-fix/</link>
+      <guid>https://docs.yychuiyan.com/blog/tools/chrome-devtools-slow-fix/</guid>
+      <pubDate>Mon, 15 Jun 2026 16:00:00 GMT</pubDate>
+      <category>工具篇</category>
+      <description>Chrome 开发者工具（DevTools）打开时卡顿 34 秒，窗口才能正常显示。遇到线上问题急需看报错时，等这几秒非常影响效率。</description>
+    </item>
+    <item>
+      <title>Claude Code + CC Switch安装配置</title>
+      <link>https://docs.yychuiyan.com/blog/tools/claude-code-cc-switch/</link>
+      <guid>https://docs.yychuiyan.com/blog/tools/claude-code-cc-switch/</guid>
+      <pubDate>Mon, 15 Jun 2026 16:00:00 GMT</pubDate>
+      <category>工具篇</category>
+      <description>CC Switch 是一款跨平台桌面应用（基于 Tauri 2 + Rust + React），用于统一管理和切换多个 AI 编程 CLI 工具的 API 供应商配置。它让你不再需要在终端中反复设置环境变量或编辑配置文件，而是通过 GUI 一键切换供应商。</description>
+    </item>
+    <item>
+      <title>Mac 下 WebStorm 插件及配置</title>
+      <link>https://docs.yychuiyan.com/blog/tools/mac-webstorm-setup/</link>
+      <guid>https://docs.yychuiyan.com/blog/tools/mac-webstorm-setup/</guid>
+      <pubDate>Mon, 15 Jun 2026 16:00:00 GMT</pubDate>
+      <category>工具篇</category>
+      <description>网上关于卸载 WebStorm 的说法参差不齐，总结了一下</description>
+    </item>
+    <item>
+      <title>json-server服务配置</title>
+      <link>https://docs.yychuiyan.com/blog/tools/json-server-setup/</link>
+      <guid>https://docs.yychuiyan.com/blog/tools/json-server-setup/</guid>
+      <pubDate>Sat, 13 Jun 2026 16:00:00 GMT</pubDate>
+      <category>工具篇</category>
+      <description>开发测试中经常需要 mock 数据来调试接口，常见的做法有几种：手写 mock 拦截、用 Mock.js 生成随机数据、或者直接搭一个本地假服务。各有各的适用场景。</description>
+    </item>
+    <item>
+      <title>使用 React Hooks实现一个返回顶部的按钮</title>
+      <link>https://docs.yychuiyan.com/blog/frontend/hooks-back-to-top/</link>
+      <guid>https://docs.yychuiyan.com/blog/frontend/hooks-back-to-top/</guid>
+      <pubDate>Tue, 09 Jun 2026 16:00:00 GMT</pubDate>
+      <category>前端</category>
+      <description>【回到顶部】是许多网页非常常用的按钮，通常放在长页面的右下角，点击可以直接让页面回到顶端。</description>
+    </item>
+    <item>
+      <title>微信小程序编写页面级todo-list</title>
+      <link>https://docs.yychuiyan.com/blog/frontend/miniprogram-todo-list/</link>
+      <guid>https://docs.yychuiyan.com/blog/frontend/miniprogram-todo-list/</guid>
+      <pubDate>Tue, 09 Jun 2026 16:00:00 GMT</pubDate>
+      <category>前端</category>
+      <description>创建输入框和按钮并且设置样式</description>
+    </item>
+    <item>
+      <title>一份够用的Git命令</title>
+      <link>https://docs.yychuiyan.com/blog/tools/git-cheatsheet/</link>
+      <guid>https://docs.yychuiyan.com/blog/tools/git-cheatsheet/</guid>
+      <pubDate>Tue, 09 Jun 2026 16:00:00 GMT</pubDate>
+      <category>工具篇</category>
+      <description>新版Git合并了checkout和reset 原来的git checkout 可以使用 git restore 代替 原来的git reset HEAD可以使用 git restore --staged代替 最新版的git提示都已经更换成了 restore</description>
+    </item>
+    <item>
+      <title>Egg.js下使用mongoose进行增删改查操作</title>
+      <link>https://docs.yychuiyan.com/blog/backend/egg-mongoose-crud/</link>
+      <guid>https://docs.yychuiyan.com/blog/backend/egg-mongoose-crud/</guid>
+      <pubDate>Tue, 09 Jun 2026 16:00:00 GMT</pubDate>
+      <category>后端</category>
+      <description>初始化项目：官网指南快速入门 快速初始化</description>
+    </item>
+    <item>
+      <title>Egg.js下使用MySQL进行增删改查</title>
+      <link>https://docs.yychuiyan.com/blog/backend/egg-mysql-crud/</link>
+      <guid>https://docs.yychuiyan.com/blog/backend/egg-mysql-crud/</guid>
+      <pubDate>Tue, 09 Jun 2026 16:00:00 GMT</pubDate>
+      <category>后端</category>
+      <description>初始化项目：官网指南快速入门 快速初始化</description>
+    </item>
+    <item>
+      <title>Express+MongoDB中的关联查询操作</title>
+      <link>https://docs.yychuiyan.com/blog/backend/express-mongo-populate/</link>
+      <guid>https://docs.yychuiyan.com/blog/backend/express-mongo-populate/</guid>
+      <pubDate>Tue, 09 Jun 2026 16:00:00 GMT</pubDate>
+      <category>后端</category>
+      <description>一对一、一对多、多对多，作为 NoSQL 领头羊的 MongoDB 中常用做法无非「内嵌」和「引用」两种，因为 Document 有 16MB 的大小限制且「内嵌」不适合复杂的多对多关系，「引用」是用得更广泛的关联方式，所以 MongoDB 官方称其为“Normalized Data Models”——标准化数据模型。</description>
+    </item>
+    <item>
+      <title>Nest.js实现登录注册</title>
+      <link>https://docs.yychuiyan.com/blog/backend/nest-auth/</link>
+      <guid>https://docs.yychuiyan.com/blog/backend/nest-auth/</guid>
+      <pubDate>Tue, 09 Jun 2026 16:00:00 GMT</pubDate>
+      <category>后端</category>
+      <description>在实现登录注册之前，需要先整理一下需求， 我们希望用户有两种方式可以登录进入网站来写文章， 一种是账号密码登录，另一种是微信扫码登录。</description>
+    </item>
+    <item>
+      <title>react使用antd框架分页的封装处理</title>
+      <link>https://docs.yychuiyan.com/blog/frontend/antd-pagination/</link>
+      <guid>https://docs.yychuiyan.com/blog/frontend/antd-pagination/</guid>
+      <pubDate>Tue, 09 Jun 2026 16:00:00 GMT</pubDate>
+      <category>前端</category>
+      <description>后端用的是express+mongdb，前端用的是antd的Pagination组件，详细参数可以看官方文档 介绍的很详细</description>
+    </item>
+    <item>
+      <title>react使用Tailwind切换主题颜色</title>
+      <link>https://docs.yychuiyan.com/blog/frontend/tailwind-theme/</link>
+      <guid>https://docs.yychuiyan.com/blog/frontend/tailwind-theme/</guid>
+      <pubDate>Tue, 09 Jun 2026 16:00:00 GMT</pubDate>
+      <category>前端</category>
+      <description>项目前置准备工作参考官网传送门</description>
+    </item>
+    <item>
+      <title>react页面滚动时导航栏的显示与隐藏</title>
+      <link>https://docs.yychuiyan.com/blog/frontend/navbar-on-scroll/</link>
+      <guid>https://docs.yychuiyan.com/blog/frontend/navbar-on-scroll/</guid>
+      <pubDate>Tue, 09 Jun 2026 16:00:00 GMT</pubDate>
+      <category>前端</category>
+      <description>代码主要实现了导航栏跟随页面显示隐藏，页面向下滚动时导航栏消失，向上滚动导航栏显示，这个可以动态的去调整</description>
+    </item>
+    <item>
+      <title>Vue3.0+Element plus遍历加载icon</title>
+      <link>https://docs.yychuiyan.com/blog/frontend/element-plus-icons/</link>
+      <guid>https://docs.yychuiyan.com/blog/frontend/element-plus-icons/</guid>
+      <pubDate>Tue, 09 Jun 2026 16:00:00 GMT</pubDate>
+      <category>前端</category>
+      <description>记录一下，使用v-for遍历的时候，没显示出来，使用的是setup语法糖。</description>
+    </item>
+    <item>
+      <title>VuePress博客搭建教程</title>
+      <link>https://docs.yychuiyan.com/blog/tools/vuepress-blog-setup/</link>
+      <guid>https://docs.yychuiyan.com/blog/tools/vuepress-blog-setup/</guid>
+      <pubDate>Tue, 09 Jun 2026 16:00:00 GMT</pubDate>
+      <category>工具篇</category>
+      <description>因为vuepress本身就是一个文档型的页面，比较简约，这里使用的是大佬午后南杂制作的一个主题，个人认为应该是vuepress最好的主题之一</description>
+    </item>
+    <item>
+      <title>对浮动(float)的理解</title>
+      <link>https://docs.yychuiyan.com/blog/frontend/css-float/</link>
+      <guid>https://docs.yychuiyan.com/blog/frontend/css-float/</guid>
+      <pubDate>Mon, 08 Jun 2026 16:00:00 GMT</pubDate>
+      <category>前端</category>
+      <description>浮动在我们页面布局时经常会使用，设置了浮动的容器会脱离普通标准流也就是我们常说的脱标。</description>
+    </item>
+    <item>
+      <title>对CSS样式优先级的理解</title>
+      <link>https://docs.yychuiyan.com/blog/frontend/css-specificity/</link>
+      <guid>https://docs.yychuiyan.com/blog/frontend/css-specificity/</guid>
+      <pubDate>Mon, 08 Jun 2026 16:00:00 GMT</pubDate>
+      <category>前端</category>
+      <description>概念：定义CSS样式时，经常出现两个或更多规则应用在同一元素上，此时，</description>
+    </item>
+    <item>
+      <title>关于px em rem vh vw那些事儿</title>
+      <link>https://docs.yychuiyan.com/blog/frontend/px-em-rem-vh-vw/</link>
+      <guid>https://docs.yychuiyan.com/blog/frontend/px-em-rem-vh-vw/</guid>
+      <pubDate>Mon, 08 Jun 2026 16:00:00 GMT</pubDate>
+      <category>前端</category>
+      <description>前言：在做移动端响应式布局的时候发现这个知识点还是比较薄弱，记录一下</description>
+    </item>
+    <item>
+      <title>理解HTML基本结构</title>
+      <link>https://docs.yychuiyan.com/blog/frontend/html-structure/</link>
+      <guid>https://docs.yychuiyan.com/blog/frontend/html-structure/</guid>
+      <pubDate>Mon, 08 Jun 2026 16:00:00 GMT</pubDate>
+      <category>前端</category>
+      <description>HTML基本结构包含doctype,html,head,title,body，我们今天剖析下每个结构标签的含义</description>
+    </item>
+    <item>
+      <title>如何让 localStorage 存储变为响应式</title>
+      <link>https://docs.yychuiyan.com/blog/frontend/reactive-localstorage/</link>
+      <guid>https://docs.yychuiyan.com/blog/frontend/reactive-localstorage/</guid>
+      <pubDate>Mon, 08 Jun 2026 16:00:00 GMT</pubDate>
+      <category>前端</category>
+      <description>项目上有个更改时区的全局组件，同时还有一个可以更改时区的局部组件，想让更改时区的时候能联动起来，实时响应起来。</description>
+    </item>
+    <item>
+      <title>深入JavaScript系列之JSON对象</title>
+      <link>https://docs.yychuiyan.com/blog/frontend/js-json-object/</link>
+      <guid>https://docs.yychuiyan.com/blog/frontend/js-json-object/</guid>
+      <pubDate>Mon, 08 Jun 2026 16:00:00 GMT</pubDate>
+      <category>前端</category>
+      <description>JavaScript开发人员都错误地把JavaScript对象字面量（Object Literals）称为JSON对象（JSON Objects），因为他的语法和JSON规范里描述的一样，但是该规范里也明确地说了JSON只是一个数据交换语言，只有我们将之用在string上下文的时候它才叫JSON。-- 汤姆大叔</description>
+    </item>
+    <item>
+      <title>什么是BFC和IFC？</title>
+      <link>https://docs.yychuiyan.com/blog/frontend/bfc-ifc/</link>
+      <guid>https://docs.yychuiyan.com/blog/frontend/bfc-ifc/</guid>
+      <pubDate>Mon, 08 Jun 2026 16:00:00 GMT</pubDate>
+      <category>前端</category>
+      <description>内部的box会在垂直方向，一个接一个地放置</description>
+    </item>
+    <item>
+      <title>CSS选择器有哪些？哪些属性可以继承？</title>
+      <link>https://docs.yychuiyan.com/blog/frontend/selectors-inheritance/</link>
+      <guid>https://docs.yychuiyan.com/blog/frontend/selectors-inheritance/</guid>
+      <pubDate>Mon, 08 Jun 2026 16:00:00 GMT</pubDate>
+      <category>前端</category>
+      <description>选择器从标签、类、id 到后代、子代、伪类，权重各不相同。可继承的多半是文字相关属性，盒模型和定位一般不继承。能用类就别堆 id。</description>
+    </item>
+    <item>
+      <title>meta视口标签详解</title>
+      <link>https://docs.yychuiyan.com/blog/frontend/meta-viewport/</link>
+      <guid>https://docs.yychuiyan.com/blog/frontend/meta-viewport/</guid>
+      <pubDate>Mon, 08 Jun 2026 16:00:00 GMT</pubDate>
+      <category>前端</category>
+      <description>- 作用：让当前 viewport 的宽度等于设备的宽度，同时不允许用户进行手动缩放。 - 原理：移动端浏览器通常都会在一个比移动端屏幕更宽的虚拟窗口中渲染页面，这个虚拟窗口就是viewport；目的是正常展示没有做移动端适配的网页，让他们完整的展示给用户。</description>
+    </item>
+    <item>
+      <title>MVC与MVVM的区别</title>
+      <link>https://docs.yychuiyan.com/blog/frontend/mvc-vs-mvvm/</link>
+      <guid>https://docs.yychuiyan.com/blog/frontend/mvc-vs-mvvm/</guid>
+      <pubDate>Mon, 08 Jun 2026 16:00:00 GMT</pubDate>
+      <category>前端</category>
+      <description>MVC是一种架构思想，全称Model-View-Controller，即模型-视图-控制器，MVC是后端的开发思想，将数据从后端经过控制器层转向前端视图展示。</description>
+    </item>
+    <item>
+      <title>React+TS配置路径别名</title>
+      <link>https://docs.yychuiyan.com/blog/frontend/ts-path-alias/</link>
+      <guid>https://docs.yychuiyan.com/blog/frontend/ts-path-alias/</guid>
+      <pubDate>Mon, 08 Jun 2026 16:00:00 GMT</pubDate>
+      <category>前端</category>
+      <description>基于创建ts项目暴露webpack-config文件</description>
+    </item>
+    <item>
+      <title>react+vite初始化项目</title>
+      <link>https://docs.yychuiyan.com/blog/frontend/vite-init/</link>
+      <guid>https://docs.yychuiyan.com/blog/frontend/vite-init/</guid>
+      <pubDate>Mon, 08 Jun 2026 16:00:00 GMT</pubDate>
+      <category>前端</category>
+      <description>日常使用的技术栈是react，这个项目基于vite创建，推荐使用vite，原理和优势可以参考：Vite 的实现原理，确实很巧妙</description>
+    </item>
+    <item>
+      <title>react项目中token失效路由跳转处理</title>
+      <link>https://docs.yychuiyan.com/blog/frontend/token-expire-redirect/</link>
+      <guid>https://docs.yychuiyan.com/blog/frontend/token-expire-redirect/</guid>
+      <pubDate>Mon, 08 Jun 2026 16:00:00 GMT</pubDate>
+      <category>前端</category>
+      <description>在react中有两种路由模式，分别是 hash 和 history ，为了方便大家理解，我们先来了解下这两个路由</description>
+    </item>
+    <item>
+      <title>关于浅拷贝深拷贝那些事儿</title>
+      <link>https://docs.yychuiyan.com/blog/frontend/deep-shallow-copy/</link>
+      <guid>https://docs.yychuiyan.com/blog/frontend/deep-shallow-copy/</guid>
+      <pubDate>Sun, 07 Jun 2026 16:00:00 GMT</pubDate>
+      <category>前端</category>
+      <description>浅拷贝：拷贝的只是对象的(引用)地址，新旧对象还是共享同一块内存，修改新对象会影响到原始对象数值发生变化</description>
+    </item>
+    <item>
+      <title>过滤JavaScript数组中出现的null问题</title>
+      <link>https://docs.yychuiyan.com/blog/frontend/filter-array-null/</link>
+      <guid>https://docs.yychuiyan.com/blog/frontend/filter-array-null/</guid>
+      <pubDate>Sun, 07 Jun 2026 16:00:00 GMT</pubDate>
+      <category>前端</category>
+      <description>比较简单的方式使用filter方法，同样可以过滤undefined，当需要过滤空格时候使用.trim()方法</description>
+    </item>
+    <item>
+      <title>函数式编程的理解</title>
+      <link>https://docs.yychuiyan.com/blog/frontend/functional-programming/</link>
+      <guid>https://docs.yychuiyan.com/blog/frontend/functional-programming/</guid>
+      <pubDate>Sun, 07 Jun 2026 16:00:00 GMT</pubDate>
+      <category>前端</category>
+      <description>众所周知，在函数式语言中，函数是一等公民，就像是对象一样，函数也可以是参数和返回值，从严格意义上来说函数式编程也意味着不使用可变的变量，赋值，循环和其他命令式控制结构进行编程，而是以表达式的方式编程，通过各种组合子进行数据的操作</description>
+    </item>
+    <item>
+      <title>深入浅出Object.keys()、Object.values()、Object.entries()方法</title>
+      <link>https://docs.yychuiyan.com/blog/frontend/object-keys-values-entries/</link>
+      <guid>https://docs.yychuiyan.com/blog/frontend/object-keys-values-entries/</guid>
+      <pubDate>Sun, 07 Jun 2026 16:00:00 GMT</pubDate>
+      <category>前端</category>
+      <description>Object.keys() 静态方法返回一个由给定对象自身的可枚举的字符串键属性名组成的数组。 --MDN</description>
+    </item>
+    <item>
+      <title>深入JavaScript系列之闭包</title>
+      <link>https://docs.yychuiyan.com/blog/frontend/closure/</link>
+      <guid>https://docs.yychuiyan.com/blog/frontend/closure/</guid>
+      <pubDate>Sun, 07 Jun 2026 16:00:00 GMT</pubDate>
+      <category>前端</category>
+      <description>要理解闭包，首先必须要理解JavaScript特殊的变量作用域，变量的作用域无非就是两种：全部变量和局部变量</description>
+    </item>
+    <item>
+      <title>深入JavaScript系列之原型和原型链</title>
+      <link>https://docs.yychuiyan.com/blog/frontend/prototype-chain/</link>
+      <guid>https://docs.yychuiyan.com/blog/frontend/prototype-chain/</guid>
+      <pubDate>Sun, 07 Jun 2026 16:00:00 GMT</pubDate>
+      <category>前端</category>
+      <description>JavaScript不包含传统的类继承模型，而是使用prototypal原型模型</description>
+    </item>
+    <item>
+      <title>深入JavaScript系列之执行上下文</title>
+      <link>https://docs.yychuiyan.com/blog/frontend/execution-context/</link>
+      <guid>https://docs.yychuiyan.com/blog/frontend/execution-context/</guid>
+      <pubDate>Sun, 07 Jun 2026 16:00:00 GMT</pubDate>
+      <category>前端</category>
+      <description>执行上下文(简称-EC)是ECMA-262标准里的一个抽象概念，ECMA-262标准用这个概念同可执行代码(executable code)概念进行区分。</description>
+    </item>
+    <item>
+      <title>数组对象合并后计算</title>
+      <link>https://docs.yychuiyan.com/blog/frontend/array-object-merge/</link>
+      <guid>https://docs.yychuiyan.com/blog/frontend/array-object-merge/</guid>
+      <pubDate>Sun, 07 Jun 2026 16:00:00 GMT</pubDate>
+      <category>前端</category>
+      <description>把同类项收成一条，再把数量加起来。下面两个场景：先按大类分组再按日期合并，以及直接按同一个字段合并。</description>
+    </item>
+    <item>
+      <title>JavaScript打乱数组顺序的几种方式</title>
+      <link>https://docs.yychuiyan.com/blog/frontend/js-shuffle-array/</link>
+      <guid>https://docs.yychuiyan.com/blog/frontend/js-shuffle-array/</guid>
+      <pubDate>Sun, 07 Jun 2026 16:00:00 GMT</pubDate>
+      <category>前端</category>
+      <description>在开发的过程中会遇到各种各样的需求，在接收后端传递过来的数据会有不同的排序，根据不同的场景进行正序、倒序、乱序的排序，这里主要介绍数组在正序的情况下打乱后重新排序显示。</description>
+    </item>
+    <item>
+      <title>JavaScript函数声明的几种方式</title>
+      <link>https://docs.yychuiyan.com/blog/frontend/js-function-declaration/</link>
+      <guid>https://docs.yychuiyan.com/blog/frontend/js-function-declaration/</guid>
+      <pubDate>Sun, 07 Jun 2026 16:00:00 GMT</pubDate>
+      <category>前端</category>
+      <description>前端再怎么发展也离不开JavaScript的贴心陪伴，函数作为JavaScript的第一等公民，有着它自己的亮点，下面我们来介绍下作为第一等公民有哪几种声明方式</description>
+    </item>
+    <item>
+      <title>JavaScript实现日期格式化</title>
+      <link>https://docs.yychuiyan.com/blog/frontend/js-date-format/</link>
+      <guid>https://docs.yychuiyan.com/blog/frontend/js-date-format/</guid>
+      <pubDate>Sun, 07 Jun 2026 16:00:00 GMT</pubDate>
+      <category>前端</category>
+      <description>对，就是实现日期格式化，在我们做业务开发的漫长岁月里，会多次跟时间打交道，相信大多数小伙伴对都写过类似倒计时的功能，那么对于日期格式化相信也并不陌生，这里简单记录一下实现日期格式化的过程，以及一些拓展。</description>
+    </item>
+    <item>
+      <title>JavaScript字符串截取方法</title>
+      <link>https://docs.yychuiyan.com/blog/frontend/js-string-slice/</link>
+      <guid>https://docs.yychuiyan.com/blog/frontend/js-string-slice/</guid>
+      <pubDate>Sun, 07 Jun 2026 16:00:00 GMT</pubDate>
+      <category>前端</category>
+      <description>在页面数据处理的过程中都会不可避免的使用字符串的截取操作，有三种方式可以选择，分别是slice，substr,substring</description>
+    </item>
+    <item>
+      <title>js数组对象排序</title>
+      <link>https://docs.yychuiyan.com/blog/frontend/js-array-object-sort/</link>
+      <guid>https://docs.yychuiyan.com/blog/frontend/js-array-object-sort/</guid>
+      <pubDate>Sun, 07 Jun 2026 16:00:00 GMT</pubDate>
+      <category>前端</category>
+      <description>sort() 方法用原地算法对数组的元素进行排序，并返回数组。默认排序顺序是在将元素转换为字符串，然后比较它们的 UTF-16 代码单元值序列时构建的 -- MDN</description>
+    </item>
+    <item>
+      <title>js字符串的转换及拼接</title>
+      <link>https://docs.yychuiyan.com/blog/frontend/js-string-convert-concat/</link>
+      <guid>https://docs.yychuiyan.com/blog/frontend/js-string-convert-concat/</guid>
+      <pubDate>Sun, 07 Jun 2026 16:00:00 GMT</pubDate>
+      <category>前端</category>
+      <description>我们在工作中会经常遇到字符串的转换和拼接相关的小需求，简单整理了一些常用的方法。</description>
+    </item>
+  </channel>
+</rss>
