@@ -1,0 +1,118 @@
+/* ============================================
+   Giscus 亮色主题 — 炊烟小站
+   适配 VitePress 暖色系，匹配 pager-link 卡片风格
+   ============================================ */
+
+main {
+  /* ---- 文字 ---- */
+  --color-fg-default: #5c4f3c;
+  --color-fg-muted: #8b8070;
+  --color-fg-subtle: #a09888;
+
+  /* ---- 主色调（暖橙）---- */
+  --color-accent-fg: #e67e22;
+  --color-accent-emphasis: #d35400;
+  --color-accent-muted: rgba(230, 126, 34, 0.3);
+  --color-accent-subtle: rgba(230, 126, 34, 0.08);
+
+  /* ---- 成功/警告/危险 ---- */
+  --color-success-fg: #27ae60;
+  --color-attention-fg: #e67e22;
+  --color-attention-muted: rgba(230, 126, 34, 0.3);
+  --color-attention-subtle: rgba(230, 126, 34, 0.08);
+  --color-danger-fg: #c0392b;
+  --color-danger-muted: rgba(192, 57, 43, 0.3);
+  --color-danger-subtle: rgba(192, 57, 43, 0.08);
+
+  /* ---- 背景 ---- */
+  --color-canvas-default: #eeebe5;
+  --color-canvas-overlay: #ffffff;
+  --color-canvas-inset: #e8e4db;
+  --color-canvas-subtle: #e8e4db;
+
+  /* ---- 边框（和 pager-link 的 --vp-c-border 一致）---- */
+  --color-border-default: #ddd8cf;
+  --color-border-muted: #e5e0d7;
+  --color-neutral-muted: rgba(175, 170, 160, 0.2);
+
+  /* ---- 按钮 ---- */
+  --color-btn-text: #5c4f3c;
+  --color-btn-bg: #f2efe9;
+  --color-btn-border: rgba(0, 0, 0, 0.08);
+  --color-btn-shadow: 0 1px 0 rgba(0, 0, 0, 0.04);
+  --color-btn-inset-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);
+  --color-btn-hover-bg: #e8e4db;
+  --color-btn-hover-border: rgba(0, 0, 0, 0.12);
+  --color-btn-active-bg: #e0dbd0;
+  --color-btn-active-border: rgba(0, 0, 0, 0.12);
+  --color-btn-selected-bg: #e8e4db;
+
+  /* ---- 主按钮（暖橙渐变）---- */
+  --color-btn-primary-text: #fff;
+  --color-btn-primary-bg: #e67e22;
+  --color-btn-primary-border: transparent;
+  --color-btn-primary-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  --color-btn-primary-inset-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2);
+  --color-btn-primary-hover-bg: #d35400;
+  --color-btn-primary-hover-border: transparent;
+  --color-btn-primary-selected-bg: #c04e00;
+  --color-btn-primary-selected-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.15);
+  --color-btn-primary-disabled-text: rgba(255, 255, 255, 0.7);
+  --color-btn-primary-disabled-bg: rgba(230, 126, 34, 0.5);
+  --color-btn-primary-disabled-border: transparent;
+
+  /* ---- 其他 ---- */
+  --color-action-list-item-default-hover-bg: rgba(230, 126, 34, 0.08);
+  --color-segmented-control-bg: #e8e4db;
+  --color-segmented-control-button-bg: #ffffff;
+  --color-segmented-control-button-selected-border: #ddd8cf;
+  --color-primer-shadow-inset: inset 0 1px 0 rgba(0, 0, 0, 0.04);
+
+  /* ---- 代码高亮 ---- */
+  --color-prettylights-syntax-comment: #8b8070;
+  --color-prettylights-syntax-constant: #0550ae;
+  --color-prettylights-syntax-entity: #8250df;
+  --color-prettylights-syntax-storage-modifier-import: #2c2416;
+  --color-prettylights-syntax-entity-tag: #116329;
+  --color-prettylights-syntax-keyword: #cf222e;
+  --color-prettylights-syntax-string: #0a3069;
+  --color-prettylights-syntax-variable: #953800;
+  --color-prettylights-syntax-brackethighlighter-unmatched: #82071e;
+  --color-prettylights-syntax-invalid-illegal-text: #f6f8fa;
+  --color-prettylights-syntax-invalid-illegal-bg: #82071e;
+  --color-prettylights-syntax-carriage-return-text: #f6f8fa;
+  --color-prettylights-syntax-carriage-return-bg: #cf222e;
+  --color-prettylights-syntax-string-regexp: #116329;
+  --color-prettylights-syntax-markup-list: #3b2300;
+  --color-prettylights-syntax-markup-heading: #0550ae;
+  --color-prettylights-syntax-markup-italic: #2c2416;
+  --color-prettylights-syntax-markup-bold: #2c2416;
+  --color-prettylights-syntax-markup-deleted-text: #82071e;
+  --color-prettylights-syntax-markup-deleted-bg: #ffebe9;
+  --color-prettylights-syntax-markup-inserted-text: #116329;
+  --color-prettylights-syntax-markup-inserted-bg: #dafbe1;
+  --color-prettylights-syntax-markup-changed-text: #953800;
+  --color-prettylights-syntax-markup-changed-bg: #ffd8b5;
+  --color-prettylights-syntax-markup-ignored-text: #eaeef2;
+  --color-prettylights-syntax-markup-ignored-bg: #0550ae;
+  --color-prettylights-syntax-meta-diff-range: #8250df;
+  --color-prettylights-syntax-brackethighlighter-angle: #57606a;
+  --color-prettylights-syntax-sublimelinter-gutter-mark: #8c959f;
+  --color-prettylights-syntax-constant-other-reference-link: #0a3069;
+
+  /* ---- Reaction ---- */
+  --color-social-reaction-bg-hover: #e8e4db;
+  --color-social-reaction-bg-reacted-hover: rgba(230, 126, 34, 0.12);
+
+  /* ---- Scale colors ---- */
+  --color-scale-gray-1: #e8e4db;
+  --color-scale-blue-1: rgba(230, 126, 34, 0.15);
+}
+
+main .pagination-loader-container {
+  background-image: url("https://github.com/images/modules/pulls/progressive-disclosure-line.svg");
+}
+
+main .gsc-loading-image {
+  background-image: url("https://github.githubassets.com/images/mona-loading-default.gif");
+}
